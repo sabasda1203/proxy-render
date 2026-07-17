@@ -1,8 +1,12 @@
 {
   "name": "proxy-render",
   "version": "1.0.0",
+  "description": "Proxy server on Render",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
-  "dependencies": { ... }
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
