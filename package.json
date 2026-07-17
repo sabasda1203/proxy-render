@@ -1,21 +1,12 @@
 {
-  "name": "proxy-render",
+  "name": "proxy-render-app",
   "version": "1.0.0",
-  "description": "Proxy server on Render",
+  "description": "Proxy Render App",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "pxrender -p $PORT ."
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.3.4"
+    "proxy-render": "^1.0.5"
   }
 }
