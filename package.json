@@ -1,12 +1,14 @@
 {
-  "name": "proxy-render-app",
+  "name": "nodejs-proxy-render",
   "version": "1.0.0",
-  "description": "Proxy Render App",
-  "type": "module",
+  "description": "nodejs-proxy-render",
+  "main": "src/worker-vless.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "pxrender -p $PORT ."
+    "start": "node src/worker-vless.js"
   },
   "dependencies": {
-    "proxy-render": "^1.0.5"
+    "express": "^4.19.2",
+    "ws": "^8.16.0"
   }
 }
