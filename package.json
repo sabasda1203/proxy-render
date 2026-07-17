@@ -2,10 +2,10 @@
   "name": "nodejs-proxy-render",
   "version": "1.0.0",
   "description": "nodejs-proxy-render",
-  "main": "src/worker-vless.js",
+  "main": "worker-vless.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/worker-vless.js"
+    "start": "node worker-vless.js"
   },
   "dependencies": {
     "express": "^4.19.2",
